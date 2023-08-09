@@ -1,0 +1,348 @@
+*********************************USER LOGIN DEMO****************************************
+
+
+*****WELCOM TO GO TRAVEL*****
+1.ADMIN LOGIN
+2.USER LOGIN
+2
+YOU ARE LOGGED IN AS USER
+1.MAKE A TRIP
+2.SHOW PREVIOUS TRIPS
+
+ENTER YOUR CHOICE: 1
+
+ENTER START LOCATION: Mumbai
+
+ENTER DESTINATION: Akola
+
+ENTER ROUTE (BUS/TRAIN): train
+
+YOU HAVE BOOKED FOR TRAIN!!
+ROUTETYPES: 
+1 Shortest Distance 
+2 Cheapest Cost  
+3 Least Time
+3
+6
+
+Least Time between Mumbai and Akola
+6 hr
+Train Distance: 90 Km
+Train Cost: 90 Rs
+
+Path : Mumbai->Pune->Badnera->Akola
+
+1. Do you want to book for this trip ?
+2. Go back
+Enter 1 to book
+1
+Enter the no. of passengers: 
+2
+Enter details of passenger 1
+Enter Date and Day of Travel: 
+12/9/2023
+Name: 
+Vaibhavi
+Age: 
+20
+Gender: 
+Female
+Phone No.: 
+9874563
+Enter details of passenger 2
+Enter Date and Day of Travel: 
+12/09/2023
+Name: 
+Shivansh
+Age: 
+20
+Gender: 
+Male
+Phone No.: 
+75641234
+
+Least Time between Mumbai and Akola
+6 hr
+Train Distance: 90 Km
+Train Cost: 90 Rs
+
+Path : Mumbai->Pune->Badnera->Akola
+
+1. Proceed to Payment
+2. Cancel booking
+1
+
+Total number of Passengers: 2
+Total Booking Price: 180 Rs
+
+***PAYMENT***
+Enter your Bank Name: 
+SBI
+Enter Credit card details: 
+4741256
+
+Trip booked sucessfully
+
+1. Make another trip
+2. Show previous Trips
+3. Exit
+1
+
+ENTER START LOCATION: Nagpur
+
+ENTER DESTINATION: Pune
+
+ENTER ROUTE (BUS/TRAIN): bus
+
+YOU HAVE BOOKED FOR BUS!!
+ROUTETYPES: 
+1 Shortest Distance 
+2 Cheapest Cost  
+3 Least Time
+2
+2
+
+Cheapest cost between Nagpur and Pune
+10 Rs
+Bus Distance: 40 Km
+Bus Time: 1 hr
+
+Path : Nagpur->Pune
+
+1. Do you want to book for this trip ?
+2. Go back
+Enter 1 to book
+1
+Enter the no. of passengers: 
+1
+Enter details of passenger 1
+Enter Date and Day of Travel: 
+22/09/2023
+Name: 
+Atharv
+Age: 
+23
+Gender: 
+Male
+Phone No.: 
+784562
+
+Cheapest cost between Nagpur and Pune
+10 Rs
+Bus Distance: 40 Km
+Bus Time: 1 hr
+
+Path : Nagpur->Pune
+
+1. Proceed to Payment
+2. Cancel booking
+1
+
+Total number of Passengers: 1
+Total Booking Price: 10 Rs
+
+***PAYMENT***
+Enter your Bank Name: 
+Axis Bank
+Enter Credit card details: 
+
+Trip booked sucessfully
+
+1. Make another trip
+2. Show previous Trips
+3. Exit
+2
+***Your prev trips*** 
+
+---Trip 1---
+
+Passenger 1
+Date Of Travel: 12/9/2023
+Name: Vaibhavi
+Age: 20
+Gender: Female
+PhoneNo: 9874563
+Path : Mumbai->Pune->Badnera->Akola
+
+Passenger 2
+Date Of Travel: 12/09/2023
+Name: Shivansh
+Age: 20
+Gender: Male
+PhoneNo: 75641234
+Path : Mumbai->Pune->Badnera->Akola
+
+---Trip 2---
+
+Passenger 1
+Date Of Travel: 22/09/2023
+Name: Atharv
+Age: 23
+Gender: Male
+PhoneNo: 784562
+Path : Nagpur->Pune
+
+1. Make another trip
+2.Show previous Trips
+3.Exit
+3
+Exit sucessfully
+
+
+
+
+
+******************************ADMIN LOGIN DEMO*******************************************
+
+
+
+*****WELCOM TO GO TRAVEL*****
+1.ADMIN LOGIN
+2.USER LOGIN
+1
+
+PLEASE ENTER PASSWORD: sam
+
+Admin is Loged in
+
+***Enter the following choice***
+0. Exit
+1. Show booked trips
+2. Add a city to your trip
+3. Remove a city from planed trip
+4. Show cities present
+4
+ Mumbai-->Pune( BusDist:40 TrainDist:30 BusCost:45 TrainCost:30 BusTime:1 TrainTime:2), 
+	Delhi( BusDist:40 TrainDist:30 BusCost:15 TrainCost:30 BusTime:1 TrainTime:2), 
+	Nagpur( BusDist:80 TrainDist:60 BusCost:55 TrainCost:60 BusTime:2 TrainTime:4)
+ Pune-->Mumbai( BusDist:40 TrainDist:30 BusCost:45 TrainCost:30 BusTime:1 TrainTime:2), 
+	Nagpur( BusDist:40 TrainDist:30 BusCost:10 TrainCost:30 BusTime:1 TrainTime:2), 
+	Badnera( BusDist:20 TrainDist:30 BusCost:25 TrainCost:30 BusTime:1 TrainTime:2)
+ Nagpur-->Mumbai( BusDist:80 TrainDist:60 BusCost:55 TrainCost:60 BusTime:2 TrainTime:4), 
+	Pune( BusDist:40 TrainDist:30 BusCost:10 TrainCost:30 BusTime:1 TrainTime:2), 
+	Amravati( BusDist:40 TrainDist:30 BusCost:55 TrainCost:30 BusTime:1 TrainTime:2)
+ Delhi-->Mumbai( BusDist:40 TrainDist:30 BusCost:15 TrainCost:30 BusTime:1 TrainTime:2)
+ Amravati-->Nagpur( BusDist:40 TrainDist:30 BusCost:55 TrainCost:30 BusTime:1 TrainTime:2), 
+	Akola( BusDist:40 TrainDist:30 BusCost:50 TrainCost:30 BusTime:1 TrainTime:2)
+ Akola-->Amravati( BusDist:40 TrainDist:30 BusCost:50 TrainCost:30 BusTime:1 TrainTime:2), 
+	Badnera( BusDist:10 TrainDist:30 BusCost:55 TrainCost:30 BusTime:1 TrainTime:2)
+ Badnera-->Pune( BusDist:20 TrainDist:30 BusCost:25 TrainCost:30 BusTime:1 TrainTime:2), 
+	Akola( BusDist:10 TrainDist:30 BusCost:55 TrainCost:30 BusTime:1 TrainTime:2)
+
+***Enter the following choice***
+0. Exit
+1. Show booked trips
+2. Add a city to your trip
+3. Remove a city from planed trip
+4. Show cities present
+2
+
+**Adding city to trip**
+
+Enter the City: Chennai
+
+Enter the number of routes you want to create
+2
+
+Enter the nearest 2 cities
+Enter 1 city : Pune
+
+For city Pune
+Enter the Routes cost and time
+
+Bus cost: 10
+Bus distance: 20
+Bus time: 2
+train cost: 5
+train distance: 30
+train time: 1
+City is successfully added
+
+Enter the nearest 1 cities
+Enter 2 city : Mumbai
+
+For city Mumbai
+Enter the Routes cost and time
+
+Bus cost: 5
+Bus distance: 50
+Bus time: 3
+train cost: 4
+train distance: 40
+train time: 2
+City is successfully added
+
+***Enter the following choice***
+0. Exit
+1. Show booked trips
+2. Add a city to your trip
+3. Remove a city from planed trip
+4. Show cities present
+4
+ Mumbai-->Pune( BusDist:40 TrainDist:30 BusCost:45 TrainCost:30 BusTime:1 TrainTime:2), 
+	Delhi( BusDist:40 TrainDist:30 BusCost:15 TrainCost:30 BusTime:1 TrainTime:2), 
+	Nagpur( BusDist:80 TrainDist:60 BusCost:55 TrainCost:60 BusTime:2 TrainTime:4), 
+	Chennai( BusDist:50 TrainDist:40 BusCost:5 TrainCost:4 BusTime:3 TrainTime:2)
+ Pune-->Mumbai( BusDist:40 TrainDist:30 BusCost:45 TrainCost:30 BusTime:1 TrainTime:2), 
+	Nagpur( BusDist:40 TrainDist:30 BusCost:10 TrainCost:30 BusTime:1 TrainTime:2), 
+	Badnera( BusDist:20 TrainDist:30 BusCost:25 TrainCost:30 BusTime:1 TrainTime:2), 
+	Chennai( BusDist:20 TrainDist:30 BusCost:10 TrainCost:5 BusTime:2 TrainTime:1)
+ Nagpur-->Mumbai( BusDist:80 TrainDist:60 BusCost:55 TrainCost:60 BusTime:2 TrainTime:4), 
+	Pune( BusDist:40 TrainDist:30 BusCost:10 TrainCost:30 BusTime:1 TrainTime:2), 
+	Amravati( BusDist:40 TrainDist:30 BusCost:55 TrainCost:30 BusTime:1 TrainTime:2)
+ Delhi-->Mumbai( BusDist:40 TrainDist:30 BusCost:15 TrainCost:30 BusTime:1 TrainTime:2)
+ Amravati-->Nagpur( BusDist:40 TrainDist:30 BusCost:55 TrainCost:30 BusTime:1 TrainTime:2), 
+	Akola( BusDist:40 TrainDist:30 BusCost:50 TrainCost:30 BusTime:1 TrainTime:2)
+ Akola-->Amravati( BusDist:40 TrainDist:30 BusCost:50 TrainCost:30 BusTime:1 TrainTime:2), 
+	Badnera( BusDist:10 TrainDist:30 BusCost:55 TrainCost:30 BusTime:1 TrainTime:2)
+ Badnera-->Pune( BusDist:20 TrainDist:30 BusCost:25 TrainCost:30 BusTime:1 TrainTime:2), 
+	Akola( BusDist:10 TrainDist:30 BusCost:55 TrainCost:30 BusTime:1 TrainTime:2)
+ Chennai-->Pune( BusDist:20 TrainDist:30 BusCost:10 TrainCost:5 BusTime:2 TrainTime:1), 
+	Mumbai( BusDist:50 TrainDist:40 BusCost:5 TrainCost:4 BusTime:3 TrainTime:2)
+
+***Enter the following choice***
+0. Exit
+1. Show booked trips
+2. Add a city to your trip
+3. Remove a city from planed trip
+4. Show cities present
+3
+
+Removing the city from planned trip
+Enter the City to remove: Chennai
+Route between Chennai and Pune has been removed.
+Route between Chennai and Mumbai has been removed.
+City Removed Sucessfully
+
+***Enter the following choice***
+0. Exit
+1. Show booked trips
+2. Add a city to your trip
+3. Remove a city from planed trip
+4. Show cities present
+4
+ Mumbai-->Pune( BusDist:40 TrainDist:30 BusCost:45 TrainCost:30 BusTime:1 TrainTime:2), 
+	Delhi( BusDist:40 TrainDist:30 BusCost:15 TrainCost:30 BusTime:1 TrainTime:2), 
+	Nagpur( BusDist:80 TrainDist:60 BusCost:55 TrainCost:60 BusTime:2 TrainTime:4)
+ Pune-->Mumbai( BusDist:40 TrainDist:30 BusCost:45 TrainCost:30 BusTime:1 TrainTime:2), 
+	Nagpur( BusDist:40 TrainDist:30 BusCost:10 TrainCost:30 BusTime:1 TrainTime:2), 
+	Badnera( BusDist:20 TrainDist:30 BusCost:25 TrainCost:30 BusTime:1 TrainTime:2)
+ Nagpur-->Mumbai( BusDist:80 TrainDist:60 BusCost:55 TrainCost:60 BusTime:2 TrainTime:4), 
+	Pune( BusDist:40 TrainDist:30 BusCost:10 TrainCost:30 BusTime:1 TrainTime:2), 
+	Amravati( BusDist:40 TrainDist:30 BusCost:55 TrainCost:30 BusTime:1 TrainTime:2)
+ Delhi-->Mumbai( BusDist:40 TrainDist:30 BusCost:15 TrainCost:30 BusTime:1 TrainTime:2)
+ Amravati-->Nagpur( BusDist:40 TrainDist:30 BusCost:55 TrainCost:30 BusTime:1 TrainTime:2), 
+	Akola( BusDist:40 TrainDist:30 BusCost:50 TrainCost:30 BusTime:1 TrainTime:2)
+ Akola-->Amravati( BusDist:40 TrainDist:30 BusCost:50 TrainCost:30 BusTime:1 TrainTime:2), 
+	Badnera( BusDist:10 TrainDist:30 BusCost:55 TrainCost:30 BusTime:1 TrainTime:2)
+ Badnera-->Pune( BusDist:20 TrainDist:30 BusCost:25 TrainCost:30 BusTime:1 TrainTime:2), 
+	Akola( BusDist:10 TrainDist:30 BusCost:55 TrainCost:30 BusTime:1 TrainTime:2)
+
+***Enter the following choice***
+0. Exit
+1. Show booked trips
+2. Add a city to your trip
+3. Remove a city from planed trip
+4. Show cities present
+0
+Exit Sucessfully
